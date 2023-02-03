@@ -1,0 +1,55 @@
+body {
+    font-family: "Asap", sans-serif
+
+}
+
+#outsideDiv {
+    background-color: #f45b69;
+    width:800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#insideDiv {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 15px 15px 15px rgba(2, 128, 144, 0.2);
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+@keyframes test {
+    0%   {background-color: #f45b69;}
+  25%  {background-color:y #8a5a5e;}
+  50%  {background-color: #432124;}
+  100% {background-color: #eab8bc;}
+}
+
+
+input {
+    width:90%;
+    border-radius: 8px;
+    border-color: white;
+    padding: 15px;
+    margin:5px;
+
+}
+
+button {
+    border-radius: 6px;
+    background-color: brown;
+    border-color: brown;
+    padding: 15px;
+    margin: 10px 5px;
+    color: #fff;
+}
